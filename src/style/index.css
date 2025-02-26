@@ -2,6 +2,9 @@
   background: white;
   width: 100%;
 }
+.filters input:hover {
+  border-color: #2cd5ca;
+}
 .filters li {
   display: inline-block;
   max-width: 80px;
@@ -99,4 +102,13 @@
 .widget ul li:last-child > a {
   border: none;
   border-radius: 0 0 3px 0;
+}
+ul {
+  text-align: center;
+}
+ul label {
+  font-weight: bold;
+}
+select:hover {
+  border-color: #2cd5ca;
 }
